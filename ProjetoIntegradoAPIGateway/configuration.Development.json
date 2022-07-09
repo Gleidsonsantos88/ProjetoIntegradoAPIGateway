@@ -9,7 +9,7 @@
           "Port": 61906
         }
       ],
-      "UpstreamPathTemplate": "/api1/{everything}",
+      "UpstreamPathTemplate": "/autenticacao/{everything}",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
      
     },
@@ -22,7 +22,7 @@
           "Port": 37817
         }
       ],
-      "UpstreamPathTemplate": "/api2/{everything}",
+      "UpstreamPathTemplate": "/ordemservico/{everything}",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "TestKey",
