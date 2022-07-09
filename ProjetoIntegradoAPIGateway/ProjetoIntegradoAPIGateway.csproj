@@ -2,11 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>ProjetoIntegradoAPIGateway.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.20" />
-    <PackageReference Include="Ocelot" Version="15.0.6" />
+    <PackageReference Include="Ocelot" Version="16.0.0" />
   </ItemGroup>
 
 
